@@ -1,7 +1,9 @@
 # httpMsg
 
 ##httpMsg 是干什么的?
+
 httpMsg帮你在标准的HTTP工作模式下，实现客户端和服务端的实时通讯。
+
 每个终端都有两个属性：UID、DEVICE, 同一个用户可以有多个不同的终端。
 
 
@@ -85,3 +87,9 @@ router.post('/getUserDevices', function(req, res, next) {
 module.exports = router;
 
 ```
+
+## 捐赠
+如果您觉得Wechat对您有帮助，欢迎请作者一杯咖啡
+
+![捐赠wechat](https://github.com/impkd/httpMsg/blob/master/d.png)
+
